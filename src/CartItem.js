@@ -36,8 +36,7 @@ const CartItem = ({ id, item }) => {
                     <CartItemQuantityContainer>
                         <select
                             value={item.quantity}
-                            onChange={(e) => changeQuantity(e.target.value)}
-                        >
+                            onChange={(e) => changeQuantity(e.target.value)}>
                             {options}
                         </select>
                     </CartItemQuantityContainer>

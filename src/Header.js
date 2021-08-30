@@ -18,9 +18,6 @@ function Header({ cartItems, user, signOut }) {
         return count;
     }
 
-    
-
-
     return (
         <Container>
             <HeaderLogo>
@@ -87,6 +84,11 @@ const HeaderLogo = styled.div`
         width: 100px;
         margin-left: 11px;
     }
+    padding-top:7px;
+    padding-right:7px;
+    :hover{
+        border: 1px solid white;
+    }
 
 `
 
@@ -133,6 +135,10 @@ const HeaderSearchIconContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    :hover{
+        background-color: #e39c40
+    }
 `
 
 const HeaderNavItems = styled.div`
@@ -143,6 +149,10 @@ const HeaderNavItems = styled.div`
 const HeaderOption = styled.div`
     padding: 10px 9px 10px 9px;
     cursor: pointer;
+
+    :hover{
+        border: 1px solid white;
+    }
 `
 
 const HeaderOptionCart = styled.div`
@@ -153,6 +163,9 @@ const HeaderOptionCart = styled.div`
         padding-right: 9px;
         color: white;
         text-decoration: none;
+    }
+    :hover{
+        border: 1px solid white;
     }
 `
 

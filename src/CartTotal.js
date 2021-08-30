@@ -30,12 +30,14 @@ const CheckoutButton = styled.button`
     background-color: #f0c14b;
     width: 100%;
     padding: 4px 8px;
-    border: 2px solid #a88734;
+    background-color: #fcc623;
+    border: 2px solid #fcc623;
     border-radius: 7px;
     cursor: pointer;
     font-size: 16px;
     :hover {
-        background:  #ddb347;
+        background-color: #f0c14b;
+        border-color: #f0c14b;
     }
 `
 

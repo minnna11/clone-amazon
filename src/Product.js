@@ -86,8 +86,12 @@ const ActionSection = styled.div`
 const AddToCartButton = styled.button`
     width: 100px;
     height: 30px;
-    background-color: #f0c14b;
-    border: 2px solid #a88734;
-    border-radius: 2px;
+    background-color: #fcc623;
+    border: 2px solid #fcc623;
+    border-radius: 7px;
     cursor: pointer;
+    :hover {
+        background-color: #f0c14b;
+        border-color: #f0c14b;
+    }
 `
